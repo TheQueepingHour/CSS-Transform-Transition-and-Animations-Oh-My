@@ -1,3 +1,25 @@
 button {
     transition: background-color 0.3s linear;
 }
+
+.captionOverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 80%;
+    margin: 1em;
+    color: white;
+    transform: translateY(90%);
+    transition: transform 0.35s ease;
+}
+.captionOverlay > img {
+    display: block;
+}
+.captionOverlay > p, .captionOverlay > h1 {
+    text-align: start;
+}
+.caption:hover .captionOverlay {
+    transform: translateY(0);
+}

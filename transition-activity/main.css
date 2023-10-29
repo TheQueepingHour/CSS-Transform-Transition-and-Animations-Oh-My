@@ -6,13 +6,14 @@ body  {
 }
 
 .caption {
+  position: relative;
   width: 80%;
   margin: auto;
   overflow: hidden;
 }
 
 img {
-  width: 80%;
+  width: 100%;
 }
 
 button {
